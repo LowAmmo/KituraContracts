@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
   s.license     = { :type => "Apache License, Version 2.0" }
   s.author     = "IBM"
   s.module_name  = 'KituraContracts'
-  s.osx.deployment_target = "10.11"
-  s.ios.deployment_target = "10.0"
-  s.tvos.deployment_target = "9.1"
-  s.watchos.deployment_target = "2.0"
+  s.osx.deployment_target = "11.0"
+  s.ios.deployment_target = "12.0"
+  s.tvos.deployment_target = "12.0"
+  s.watchos.deployment_target = "5.0"
   s.source   = { :git => "https://github.cerner.com/careaware-connect/KituraContracts-ios-lib.git", :tag => s.version }
   s.source_files = "Sources/**/*.swift"
   s.dependency 'LoggerAPI', '~> 1.9'
