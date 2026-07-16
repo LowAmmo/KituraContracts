@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name              = "KituraContracts"
   s.module_name       = 'KituraContracts'
-  s.version           = "2.0.1"
+  s.version           = "2.1.0"
   s.cocoapods_version = '~> 1.16'
   s.summary           = "KituraContracts is a library containing type definitions shared by client and server code."
   s.homepage          = "https://github.com/Kitura/KituraContracts"
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
 
   s.source_files      = "Sources/**/*.swift"
 
-  s.dependency 'LoggerAPI', '~> 2.0'
+  s.dependency 'LoggerAPI', '~> 2.1'
 
 end
